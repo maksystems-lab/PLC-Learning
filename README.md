@@ -1,13 +1,10 @@
-## PLC-Learning
+# PLC Learning
 
 CODESYS PLC projects built while learning industrial automation.
 
----
+## Projects
 
-## Project 1 - AND Gate Logic
-
-Built in CODESYS V3.5 using Ladder Diagram.
-
-NO contact (series) + NC contact = COIL output.
-
-COIL only TRUE when NO=TRUE and NC=FALSE.
+### 01 AND OR Gate
+- Ladder Logic
+- NO/NC Contacts
+- Coil Logic
