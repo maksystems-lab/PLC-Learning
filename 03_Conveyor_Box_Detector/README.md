@@ -34,3 +34,10 @@ The control logic was simulated and validated inside the CODESYS environment usi
 2. `02_test_successful_latch.png` - Verifies momentary start pulse successfully seals in the conveyor.
 3. `03_test_sensor_interlock_trip.png` - Verifies blocking the photo-eye instantly drops the motor coil.
 4. `04_test_startup_inhibited.png` - Verifies the system blocks startup commands while a box is present.
+
+
+## What I Learned
+
+* **Sensor Control:** Learned how to let a field sensor automatically stop a motor instead of relying only on manual buttons.
+* **Using NC Contacts for Safety:** Used a Normally Closed `[/]` contact to act as a safety switch that opens up and cuts power the moment a box blocks the beam.
+* **Interlocking:** Figured out how to lock out the Start button so the conveyor completely refuses to run if a box is already sitting on the sensor.
