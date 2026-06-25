@@ -34,6 +34,14 @@ CODESYS PLC projects built while learning industrial automation and control syst
 - Stop Priority (Fail-Safe)
 - Industrial Pump Control
 
+### 05 Sequential Pump Control
+
+- Two-Pump Sequential Operation
+- TON (On-Delay Timer)
+- Delayed Pump Startup
+- Master Start/Stop Control
+- Industrial Pump Sequencing
+
 ## Software Used
 
 * CODESYS
