@@ -35,4 +35,3 @@ The primary objective of this project is to learn how to coordinate data across 
 ---
 
 ## Simulation & Verification
-*(Paste your CODESYS simulation screenshots here showing the logic state when the counter hits 5 and during the 2-second delay)*
