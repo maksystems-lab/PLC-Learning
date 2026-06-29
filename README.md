@@ -82,6 +82,6 @@ CODESYS PLC projects built while learning industrial automation and control syst
 
 ## Author
 
-Mohsin Akram Khan  
-B.Tech Energy Engineering  
+Mohsin Akram Khan<br>
+B.Tech Energy Engineering<br>
 IIT Delhi Abu Dhabi
