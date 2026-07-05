@@ -5,11 +5,6 @@ This project implements an automated process control sequence for a fluid holdin
 
 This project is highly relevant to industrial fluid handling and water treatment processing layouts.
 
-## New Concepts Learned
-* **Process vs. Discrete Automation:** Transitioning from counting individual items to managing continuous fluid states and storage levels.
-* **Hysteresis / Dual-Threshold Logic:** Using separate high and low boundaries to control a single output device (preventing a pump from rapidly cycling on and off at a single point).
-* **Industrial Safety Interlocks:** Protecting system hardware (pumps) from running dry or overfilling using hardware-sensor priority logic.
-
 ## Process Flow
 1. **System Enable:** Pressing the start controls enables the monitoring loop.
 2. **Low-Level Threshold:** When the fluid drops below the **Low Level Sensor**, the system detects an empty condition and automatically activates the **Fill Pump**.
@@ -29,7 +24,14 @@ This project is highly relevant to industrial fluid handling and water treatment
 * `Low_Alarm_Lamp` (BOOL) - Indicator indicating a near-empty tank condition
 * `High_Alarm_Lamp` (BOOL) - Indicator indicating a completely full tank condition
 
+## New Concepts Learned
+* **Process vs. Discrete Automation:** Transitioning from counting individual items to managing continuous fluid states and storage levels.
+* **Hysteresis / Dual-Threshold Logic:** Using separate high and low boundaries to control a single output device (preventing a pump from rapidly cycling on and off at a single point).
+* **Industrial Safety Interlocks:** Protecting system hardware (pumps) from running dry or overfilling using hardware-sensor priority logic.
+
+
 ---
+
 
 ## Simulation & Verification
 *screenshots here showing the logic states during filling, tank full, and low-level trip conditions*
