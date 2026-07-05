@@ -22,7 +22,7 @@ To transition from discrete (ON/OFF) signals to continuous analog process contro
 ## 4. Mathematical Formula
 The linear scaling equation used in the logic:
 
-$$Scaled\ Value = \left(\frac{Raw\ Input - Raw\ Min}{Raw\ Max - Raw\ Min}\right) \times (Eng\ Max - Eng\ Min) + Eng\ Min$$
+* $$Scaled\ Value = \left(\frac{Raw\ Input - Raw\ Min}{Raw\ Max - Raw\ Min}\right) \times (Eng\ Max - Eng\ Min) + Eng\ Min$$ *
 
 ## 5. Verification Metrics
 * **0% Capacity (4mA):** Raw Input = `0`   --> Scaled Output = `0.0 L`
