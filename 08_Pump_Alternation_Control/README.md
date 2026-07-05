@@ -5,11 +5,6 @@ This project implements a dual-pump alternation strategy (often called Lead/Lag 
 
 This is a critical strategy used in industrial water processing, HVAC chilled water loops, and wastewater lift stations.
 
-## New Concepts Learned
-* **Wear Leveling / Duty Cycling:** Writing logic to evenly distribute operational stress across multiple hardware assets.
-* **Alternation Toggle Logic:** Using internal memory flags (flip-flops) to swap system roles dynamically upon cycle completion.
-* **Lag Pump Staging:** Implementing conditional backup logic to activate a secondary asset if a single pump cannot meet process demand or if a fault occurs.
-
 ## Process Flow
 1. **System Demand Active:** A call for system operation is triggered (e.g., a tank needs to be drained or pressure drops).
 2. **First Cycle (Pump 1 Lead):** The system starts, designating Pump 1 as the "Lead" pump to meet the demand. Pump 2 remains idle.
@@ -28,7 +23,10 @@ This is a critical strategy used in industrial water processing, HVAC chilled wa
 * `Pump_2_Motor` (BOOL) - Controls the physical motor starter for Pump 2
 * `Alternation_Status_Lamp` (BOOL) - Indicator displaying which pump is currently designated as the primary asset
 
----
+## New Concepts Learned
+* **Wear Leveling / Duty Cycling:** Writing logic to evenly distribute operational stress across multiple hardware assets.
+* **Alternation Toggle Logic:** Using internal memory flags (flip-flops) to swap system roles dynamically upon cycle completion.
+* **Lag Pump Staging:** Implementing conditional backup logic to activate a secondary asset if a single pump cannot meet process demand or if a fault occurs.
 
 ## Simulation & Verification
 *(screenshots here showing Pump 1 running on cycle one, Pump 2 running on cycle two, and both pumps running during a high-demand lag condition)*
