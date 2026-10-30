@@ -50,30 +50,7 @@ CODESYS PLC projects built while learning industrial automation and control syst
 - Interlocking Logic: Disabling conveyor movement via counter state bits
 - Manual Reset Control: Operator-driven pushbutton clearing of runtime accumulation
 
-### 07 Industrial Tank Level Control
 
-- Process Control Foundations
-- Dual-Threshold Float Switch Logic
-- Hysteresis Loop Pump Control
-- Overflow Prevention Interlocks
-- Low/High Alarm Indication
-
-### 08 Pump Alternation Control
-
-- Lead/Lag Dual-Pump Strategy
-- Duty Cycle Balancing
-- Alternation Toggle Logic
-- Backup Pump Staging
-- System Redundancy & Wear Leveling
-
-### 09 PID Flow Control with Analog Scaling & Safety Interlocks
-
-- Analog Input Signal Scaling
-- Engineering Unit Conversion
-- PID Closed-Loop Flow Control
-- Analog Output Valve Control
-- High/Low & High-High/Low-Low Alarm Logic
-- Safety Interlocks & Emergency Shutdown (ESD)
 
 ## Software Used
 
